@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
   <title>APeshkov CV</title>
 </head>
 <body>
@@ -13,6 +16,7 @@
       <section class="section profile">
 
         <div class="name-picture-wrapper">
+          <img class="picture-resume" src="assets/business-person.svg" alt="person-logo">
           <div class="name-wrapper">
             <h1>Aleksandr Peshkov</h1>
           </div>
@@ -161,8 +165,56 @@ function shiftSlide(dir) {
           </ul>
         </div>
 
+        <div class="projects">
+          <h3 class="section-title">Projects</h3>
+          <ul>
+            <li>
+              <a href="https://rolling-scopes-school.github.io/alexandralexander-JSFEPRESCHOOL/museum/" target="_blank">
+                <figure>
+                  <img class="project-img" src="assets/museum.png" alt="museum">
+                  <figcaption class="project-title">
+                    <p class="project-title">Museum</p>
+                    <p class="project-desc">Проект "Museum" выполненный на stage0</p>
+                    <p class="project-tech">(HTML, CSS)</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="https://rolling-scopes-school.github.io/alexandralexander-JSFEPRESCHOOL/js30/" target="_blank">
+                <figure>
+                  <img class="project-img" src="assets/vslider.png" alt="vertical slider">
+                  <figcaption class="project-title">
+                    <p class="project-title">Vertical slider</p>
+                    <p class="project-desc">Проект "Vertical slider" выполненный на stage0</p>
+                    <p class="project-tech">(HTML, CSS, JS)</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="https://rolling-scopes-school.github.io/alexandralexander-JSFEPRESCHOOL/js31/custom-video-player/" target="_blank">
+                <figure>
+                  <img class="project-img" src="assets/cvplayer.png" alt="custom video player">
+                  <figcaption>
+                    <p class="project-title">Custom video player</p>
+                    <p class="project-desc">Проект "Custom video player" выполненный на stage0</p>
+                    <p class="project-tech">(HTML, CSS, JS)</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </div>
+  <footer>
+    <div class="social">
+      <a class="social__link" href="https://github.com/AlexandrAlexander">My GitHub</a>
+      <p>2021</p>
+      <a class="social__link-logo" href="https://rs.school/js/"><img class="social__img" src="assets/rs_school_js.svg" alt="rss_logo"></a>
+    </div>
+  </footer>
 </body>
 </html>
