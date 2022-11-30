@@ -8,6 +8,161 @@
   <title>APeshkov CV</title>
 </head>
 <body>
-  
+  <div class="resume-wrapper">
+    <main class="inner-wrapper">
+      <section class="section profile">
+
+        <div class="name-picture-wrapper">
+          <div class="name-wrapper">
+            <h1>Aleksandr Peshkov</h1>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <ul class="list-titles">
+            <li>Call</li>
+            <li>Mail</li>
+            <li>GitHub</li>
+            <li>Home</li>
+          </ul>
+          <ul class="list-content">
+            <li>+7 963 650 33 91</li>
+            <li>al.peshkoff@gmail.com</li>
+            <li><a href="https://github.com/AlexandrAlexander">AlexandrAlexander</a></li>
+            <li>Moscow</li>
+          </ul>
+        </div>
+
+        <div class="contact-presentation">
+          <p>Graduate of Bauman University Computer Sciense and Control Systems Department with experience working across the full-stack of software development. I'm looking an opportunity to extend my web development and multimedia editing skills and knowledge.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="section-title">Hobbies</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate velit a quaerat nostrum quo.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio minus dolor ipsa reiciendis labore ab, recusandae consequuntur ea aut illum nisi magni dignissimos! Ipsum sint consequatur expedita voluptate temporibus!</p>
+        </div>
+
+
+        <article class="code-example">
+          <h3 class="section-title">Code Examples:</h3>
+          <pre>
+<code class="code-example js">function bubblesortOnce(a) {
+  let newA = a.slice();
+  for (let i=1; i &lt; newA.length; i++) {
+    if (newA[i-1] &gt; newA[i]) {
+      [newA[i-1], newA[i]] = [newA[i], newA[i-1]];
+    }   
+  } 
+  return newA
+}
+
+function shiftSlide(dir) {
+  items.classList.add('shifting');
+  if (allowShift) {
+    posInitial = items.offsetTop;
+
+    if (dir == 1) {
+      items.style.top = (posInitial - slideSize) + "px";
+      index++;
+    } else if (dir == -1) {
+      items.style.top = (posInitial + slideSize) + "px";
+      index--;
+    }
+  };
+  allowShift = false;
+}</code></pre>
+        </article>
+      </section>
+
+      <section class="section experience">
+
+
+        <div class="experience-wrapper">
+          <h3 class="section-title">Experience</h3>
+
+          <div class="company-job-wrapper">
+            <div class="company-wrapper">
+              <div class="experience-title">Citilink</div>
+              <div class="time">2021 - Present</div>
+            </div>
+
+            <div class="job-wrapper">
+              <div class="experience-title">Middle 1С developer</div>
+              <ul class="company-description">
+                <li>Develop 1C applications for business needs</li>
+                <li>Modify existing 1C applications, develop additional functions and reports</li>
+                <li>Correct errors appearing in work with existing 1C applications</li>
+                <li>Responsible for 1C applications' users support (L3 Support)</li>
+                <li>Automate and Integrate development processes and CI/CD pipelines. </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="company-job-wrapper">
+            <div class="company-wrapper">
+              <div class="experience-title">Rendez-vous</div>
+              <div class="time">2020 - 2021</div>
+            </div>
+
+            <div class="job-wrapper">
+              <div class="experience-title">Middle 1С developer</div>
+              <ul class="company-description">
+                <li>Develop 1C applications for business needs</li>
+                <li>Modify existing 1C applications, develop additional functions and reports</li>
+                <li>Correct errors appearing in work with existing 1C applications</li>
+                <li>Responsible for 1C applications' users support (L3 Support)</li>
+                <li>Automate and Integrate development processes and CI/CD pipelines. </li>
+              </ul>
+            </div>
+          </div>
+          <div class="company-job-wrapper">
+            <div class="company-wrapper">
+              <div class="experience-title">Butik</div>
+              <div class="time">2018 - 2020</div>
+            </div>
+
+            <div class="job-wrapper">
+              <div class="experience-title">Middle 1С developer</div>
+              <ul class="company-description">
+                <li>Develop 1C applications for business needs</li>
+                <li>Modify existing 1C applications, develop additional functions and reports</li>
+                <li>Correct errors appearing in work with existing 1C applications</li>
+                <li>Responsible for 1C applications' users support (L3 Support)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="company-job-wrapper">
+            <div class="company-wrapper">
+              <div class="experience-title">FirstBit</div>
+              <div class="time">2016 - 2018</div>
+            </div>
+
+            <div class="job-wrapper">
+              <div class="experience-title">Junior 1С developer</div>
+              <ul class="company-description">
+                <li>Develop 1C applications for business needs</li>
+                <li>Modify existing 1C applications, develop additional functions and reports</li>
+                <li>Correct errors appearing in work with existing 1C applications</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <h3 class="section-title">Skills</h3>
+          <ul>
+            <li class="skill-percentage">HTML / HTML5</li>
+            <li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
+            <li class="skill-percentage">Javascript</li>
+            <li class="skill-percentage">Jquery</li>
+            <li class="skill-percentage">Photoshop</li>
+          </ul>
+        </div>
+
+      </section>
+    </main>
+  </div>
 </body>
 </html>
