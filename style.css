@@ -245,7 +245,26 @@ a {
   width: 70%;
 }
 
+.languages-info .list-titles {
+  float: left;
+  text-align: left;
+  font-weight: 600;
+  width: 30%;
+  color: #ffffff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.languages-info .list-content {
+  list-style: none;
+  float: left;
+  width: 70%;
+  padding: 0;
+  text-align: left;
+  font-weight: 300;
+  margin: 0;
+}
 
 .projects ul {
   padding: 0px;
